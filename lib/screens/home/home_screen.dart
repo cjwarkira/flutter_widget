@@ -275,11 +275,11 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
                 const SizedBox(height: 16.0),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12.0),
-                  child: Container(
+                  child: Container (
                     height: 300,
                     width: double.infinity,
                     child: Image.network(
-                      character['image'] ?? 'https://via.placeholder.com/300',
+                      character['image']!,
                       fit: BoxFit.cover,
                       loadingBuilder: (context, child, loadingProgress) {
                         if (loadingProgress == null) return child;
@@ -287,12 +287,12 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
                       },
                       errorBuilder: (context, error, stackTrace) => Container(
                         height: 300,
-                        color: Colors.grey[800],
+                        color: const Color.fromARGB(255, 27, 27, 27),
                         child: const Center(
                           child: Icon(
                             Icons.broken_image,
                             size: 50,
-                            color: Colors.white54,
+                            color: Color.fromARGB(137, 255, 249, 249),
                           ),
                         ),
                       ),
