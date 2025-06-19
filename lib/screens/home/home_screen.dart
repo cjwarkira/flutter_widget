@@ -20,6 +20,20 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
     {'name': 'Tyrion Lannister', 'house': 'Lannister'},
     {'name': 'Arya Stark', 'house': 'Stark'},
     {'name': 'Cersei Lannister', 'house': 'Lannister'},
+    {'name': 'Sansa Stark', 'house': 'Stark'},
+    {'name': 'Bran Stark', 'house': 'Stark'},
+    {'name': 'Jaime Lannister', 'house': 'Lannister'},
+    {'name': 'Petyr Baelish', 'house': 'Baelish'},
+    {'name': 'Sandor Clegane', 'house': 'Clegane'},
+    {'name': 'Jorah Mormont', 'house': 'Mormont'},
+    {'name': 'Theon Greyjoy', 'house': 'Greyjoy'},
+    {'name': 'Brienne of Tarth', 'house': 'Tarth'},
+    {'name': 'Samwell Tarly', 'house': 'Tarly'},
+    {'name': 'Varys', 'house': 'None'},
+    {'name': 'Melisandre', 'house': 'None'},
+    {'name': 'Ramsay Bolton', 'house': 'Bolton'},
+    {'name': 'Petyr Baelish', 'house': 'Baelish'},
+    {'name': 'Gendry', 'house': 'Baratheon'},
   ];
 
   @override
@@ -42,7 +56,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
             },
           ),
         ],
-        backgroundColor: Colors.teal,
+        backgroundColor: const Color.fromARGB(255, 175, 228, 159),
       ),
       body: Container(
         decoration: BoxDecoration(color: Colors.black12),
@@ -75,6 +89,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
             ),
             Expanded(
               child: ListView.builder(
+                padding: EdgeInsets.zero,
                 itemCount: gameOfThronesCharacters.length,
                 shrinkWrap: true,
                 itemBuilder: (context, index) {
@@ -96,8 +111,13 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: Padding(
+      bottomNavigationBar: Container(
+        height: 70, // Fixed height for bottom nav
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16.0),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border(top: BorderSide(color: Colors.grey.shade300)),
+        ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
