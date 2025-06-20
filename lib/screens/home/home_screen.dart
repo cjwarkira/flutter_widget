@@ -35,20 +35,20 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
     },
     // Add image and role for other characters
     {'name': 'Arya Stark', 'house': 'Stark', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/b/be/AryaShipIronThrone.PNG', 'role': 'Faceless Assassin'},
-    {'name': 'Cersei Lannister', 'house': 'Lannister', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/b/b0/S8_Cersei_Crop.jpg', 'role': 'Queen of the Seven Kingdoms'},
+    {'name': 'Cersei Lannister', 'house': 'Lannister', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/b/b0/CERSEIBATTLEOFKINGSLANDING.PNG/revision/latest?cb=20190906021534', 'role': 'Queen of the Seven Kingdoms'},
     {'name': 'Sansa Stark', 'house': 'Stark', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/6/63/QueenSansa.PNG', 'role': 'Queen in the North'},
-    {'name': 'Bran Stark', 'house': 'Stark', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/d/d0/BranKingSeriesFinalEnd.PNG', 'role': 'King of the Six Kingdoms'},
-    {'name': 'Jaime Lannister', 'house': 'Lannister', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/e/eb/Jaime_infobox_new.jpg', 'role': 'Kingsguard and Lord Commander'},
-    {'name': 'Petyr Baelish', 'house': 'Baelish', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/1/1f/Littlefinger_7x04.png', 'role': 'Master of Coin and Lord Protector of the Vale'},
-    {'name': 'Sandor Clegane', 'house': 'Clegane', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/4/4c/Sandor_Clegane_Season_8.PNG', 'role': 'The Hound and Sworn Shield'},
-    {'name': 'Jorah Mormont', 'house': 'Mormont', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/2/2d/JorahLongclaw.PNG', 'role': 'Knight and Advisor to Daenerys Targaryen'},
-    {'name': 'Theon Greyjoy', 'house': 'Greyjoy', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/d/d3/TheonS8E1.PNG', 'role': 'Prince of the Iron Islands'},
-    {'name': 'Brienne of Tarth', 'house': 'Tarth', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/0/0a/BrienneSnowS8E2.PNG', 'role': 'Knight of the Seven Kingdoms and Lord Commander of the Kingsguard'},
+    {'name': 'Bran Stark', 'house': 'Stark', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/8/81/KingBran.PNG/revision/latest?cb=20190520173855', 'role': 'King of the Six Kingdoms'},
+    {'name': 'Jaime Lannister', 'house': 'Lannister', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/5/51/JaimeLannisterSeason8.PNG/revision/latest?cb=20190207112813', 'role': 'Kingsguard and Lord Commander'},
+    {'name': 'Petyr Baelish', 'house': 'Baelish', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/9/9f/Profile-Littlefinger.png/revision/latest?cb=20170826005231', 'role': 'Master of Coin and Lord Protector of the Vale'},
+    {'name': 'Sandor Clegane', 'house': 'Clegane', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/b/b5/SandorConfrontsGregor.PNG/revision/latest?cb=20210722093812', 'role': 'The Hound and Sworn Shield'},
+    {'name': 'Jorah Mormont', 'house': 'Mormont', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/2/26/Winterfell_ep_Jorah_s8.jpg/revision/latest?cb=20210722093523', 'role': 'Knight and Advisor to Daenerys Targaryen'},
+    {'name': 'Theon Greyjoy', 'house': 'Greyjoy', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/7/78/TheonS8E1.PNG/revision/latest?cb=20190415192721', 'role': 'Prince of the Iron Islands'},
+    {'name': 'Brienne of Tarth', 'house': 'Tarth', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/a/a9/S8_Brienne_Profil.jpg/revision/latest?cb=20190423165941', 'role': 'Knight of the Seven Kingdoms and Lord Commander of the Kingsguard'},
     {'name': 'Samwell Tarly', 'house': 'Tarly', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/e/e9/Sam_at_Winterfell.jpg', 'role': 'Grand Maester of the Six Kingdoms'},
-    {'name': 'Varys', 'house': 'None', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/0/01/Varys_S8_EP5.jpg', 'role': 'Master of Whisperers'},
-    {'name': 'Melisandre', 'house': 'None', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/4/46/Melisandre_The_Queen%27s_Justice_Infobox.PNG', 'role': 'Red Priestess of the Lord of Light'},
-    {'name': 'Ramsay Bolton', 'house': 'Bolton', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/d/dd/Battle_of_the_Bastards_42.jpg', 'role': 'Lord of Winterfell and Warden of the North'},
-    {'name': 'Gendry', 'house': 'Baratheon', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/5/59/Gendry_S8.jpg', 'role': 'Lord of Storm\'s End'},
+    {'name': 'Varys', 'house': 'None', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/f/ff/Varys8x05Dragonstone.PNG/revision/latest?cb=20190513041715', 'role': 'Master of Whisperers'},
+    {'name': 'Melisandre', 'house': 'None', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/0/07/Melisandre_%28The_Queen%27s_Justice%29.png/revision/latest?cb=20170830235514', 'role': 'Red Priestess of the Lord of Light'},
+    {'name': 'Ramsay Bolton', 'house': 'Bolton', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/d/d2/Ramsay_S06E09_RESZIED_FOR_INFOBOX.jpg/revision/latest/scale-to-width-down/1000?cb=20160622071734', 'role': 'Lord of Winterfell and Warden of the North'},
+    {'name': 'Gendry', 'house': 'Baratheon', 'image': 'https://static.wikia.nocookie.net/gameofthrones/images/7/7b/GendryBaratheon.png/revision/latest?cb=20190520221935', 'role': 'Lord of Storm\'s End'},
   ];
 
   @override
@@ -275,7 +275,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
                 const SizedBox(height: 16.0),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12.0),
-                  child: Container (
+                  child: SizedBox (
                     height: 300,
                     width: double.infinity,
                     child: Image.network(
